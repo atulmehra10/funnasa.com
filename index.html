@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FUNNASA | Consluting • Exports • Technology</title>
+
+<meta name="description" content="Shaping a Better Tomorrow.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Space Grotesk',sans-serif;
+
+background:#060b18;
+
+color:white;
+
+overflow:hidden;
+
+}
+
+body::before{
+
+content:"";
+
+position:absolute;
+
+width:700px;
+height:700px;
+
+background:#2563eb;
+
+filter:blur(180px);
+
+opacity:.20;
+
+top:-220px;
+left:-150px;
+
+animation:move1 14s ease-in-out infinite alternate;
+
+}
+
+body::after{
+
+content:"";
+
+position:absolute;
+
+width:600px;
+height:600px;
+
+background:#06b6d4;
+
+filter:blur(170px);
+
+opacity:.15;
+
+bottom:-220px;
+right:-150px;
+
+animation:move2 16s ease-in-out infinite alternate;
+
+}
+
+@keyframes move1{
+
+from{
+transform:translate(0,0);
+}
+
+to{
+transform:translate(80px,80px);
+}
+
+}
+
+@keyframes move2{
+
+from{
+transform:translate(0,0);
+}
+
+to{
+transform:translate(-80px,-50px);
+}
+
+}
+
+.wrapper{
+
+position:relative;
+
+z-index:5;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+padding:30px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.08);
+
+padding:70px;
+
+border-radius:30px;
+
+max-width:900px;
+
+text-align:center;
+
+box-shadow:0 20px 60px rgba(0,0,0,.35);
+
+animation:fade 1.5s ease;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
+
+.logo{
+
+width:90px;
+height:90px;
+
+margin:auto;
+
+margin-bottom:35px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:34px;
+
+font-weight:700;
+
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+
+box-shadow:0 0 35px rgba(37,99,235,.45);
+
+}
+
+h1{
+
+font-size:72px;
+
+letter-spacing:3px;
+
+margin-bottom:18px;
+
+}
+
+.tagline{
+
+font-size:28px;
+
+color:#7dd3fc;
+
+margin-bottom:35px;
+
+}
+
+.description{
+
+font-size:21px;
+
+line-height:1.8;
+
+color:#d1d5db;
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:40px;
+
+}
+
+.launch{
+
+display:inline-block;
+
+padding:18px 40px;
+
+border-radius:100px;
+
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+
+font-size:20px;
+
+font-weight:600;
+
+box-shadow:0 15px 40px rgba(37,99,235,.35);
+
+}
+
+.footer{
+
+margin-top:45px;
+
+font-size:15px;
+
+color:#94a3b8;
+
+letter-spacing:1px;
+
+}
+
+@media(max-width:768px){
+
+.card{
+
+padding:45px 25px;
+
+}
+
+h1{
+
+font-size:44px;
+
+}
+
+.tagline{
+
+font-size:22px;
+
+}
+
+.description{
+
+font-size:18px;
+
+}
+
+.logo{
+
+width:70px;
+height:70px;
+
+font-size:28px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="card">
+
+<div class="logo">
+F
+</div>
+
+<h1>FUNNASA</h1>
+
+<div class="tagline">
+
+Shaping a Better Tomorrow
+
+</div>
+
+<div class="description">
+
+FUNNASA is building practical, sustainable solutions that create
+long-term value for businesses, communities and the environment.
+
+</div>
+
+<div class="launch">
+
+🚀 Launching Soon
+
+</div>
+
+<div class="footer">
+
+Consulting • Exports • Technology
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
